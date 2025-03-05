@@ -37,7 +37,7 @@ entity sevenseg_decoder_tb is
 end sevenseg_decoder_tb;
 
 architecture Behavioral of sevenseg_decoder_tb is
-    component sevenseg_decoder_tb is    
+    component sevenseg_decoder is    
         port (i_Hex : in STD_LOGIC_VECTOR (3 downto 0);
               o_seg_n : out STD_LOGIC_VECTOR (6 downto 0)
               );
@@ -48,7 +48,7 @@ architecture Behavioral of sevenseg_decoder_tb is
     
 begin
 --    sevenseg_decoder_inst : sevenseg_decoder_tb port map (
-      UUT: sevenseg_decoder_tb
+      UUT: sevenseg_decoder
       port map (
                 i_Hex => i_Hex_tb,
                 o_seg_n => o_seg_n_tb
