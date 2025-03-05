@@ -32,8 +32,8 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity sevenseg_decoder_tb is
-    Port ( i_Hex : in STD_LOGIC_VECTOR (3 downto 0);
-           o_seg_n : out STD_LOGIC_VECTOR (6 downto 0));
+--    Port ( i_Hex : in STD_LOGIC_VECTOR (3 downto 0);
+--           o_seg_n : out STD_LOGIC_VECTOR (6 downto 0));
 end sevenseg_decoder_tb;
 
 architecture Behavioral of sevenseg_decoder_tb is
